@@ -1,0 +1,12 @@
+name = "cf-domain-manager"
+main = "worker.js"
+compatibility_date = "2024-10-01"
+
+# Ganti dengan database_id dari D1 Anda
+[[d1_databases]]
+binding = "DB"
+database_name = "cf-manager-db"
+database_id = "<DATABASE_ID_ANDA>"
+
+# PENTING: agar variabel non-secret di dashboard tidak terhapus saat deploy
+keep_vars = true
