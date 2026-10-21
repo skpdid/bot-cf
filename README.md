@@ -159,7 +159,7 @@ https://cf-domain-manager.username.workers.dev
 **Buka URL Worker Anda di browser** (sekali saja):
 
 ```
-https://cf-domain-manager.username.workers.dev
+https://cf-manager-domain.username.workers.dev/telegram/setup?token=<ADMIN_TOKEN>
 ```
 
 Webhook Telegram akan **otomatis terdaftar** di background. Tidak perlu setup manual.
